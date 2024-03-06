@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <nav id="home">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="logo"></div>
+        <div class="menu">
+          <a href="#home"><span>Home</span></a>
+          <a href="#about"><span>About</span></a>
+          <a href="#portfolio"><span>Portfolio</span></a>
+          <a href="#experience"><span>Experience</span></a>
+          <a href="#contact"><span>Contacts</span></a>
+        </div>
+      </nav>
+      <section class="home">
+        <div></div>
+        <div>
+          <img src="images/photo.png" alt="Avatar" />
+        </div>
+        <div class="intro">
+          <span>Victoria Stratulat</span><br />
+          <span>I am<span id="colored-text">Front-End Developer</span></span
+          ><br />
+          <button>Contact</button>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div>
+          <img src="images/me-icon.png" alt="'me' icon" />
+        </div>
+        <div>
+          <span>ABOUT ME</span>
+          <p>
+            I am Victoria Stratulat, a beginner in Frontend Development after a
+            great experience in software testing. It was a great opportunity to
+            see the software development process from zero. Partially, my
+            interest for web development was caused by a bad job made by other
+            developers. I was curious to try to write code by myself, in order
+            to understand how complicate it is. My experience in Quality
+            Assurance allows me to better understand where the defects may hide.
+          </p>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <span>PORTFOLIO</span>
+        <div>
+          <div class="row-1">
+            <img src="images/landing.jpg" alt="Marketing Agency website" />
+            <a href="projects/landing/index.html">
+              <div class="name">Marketing Agency website</div>
+            </a>
+          </div>
+          <div class="row-1">
+            <img src="images/to-do-list.jpg" alt="To Do List" />
+            <a href="projects/to-do-list/index.html">
+              <div class="name">To Do List</div>
+            </a>
+          </div>
+          <div class="row-2">
+            <img src="images/image-gallery.jpg" alt="Image Gallery" />
+            <a href="projects/gallery/gallery.html">
+              <div class="name">Image Gallery</div>
+            </a>
+          </div>
+          <div class="row-2">
+            <img src="images/roll-dice.jpg" alt="Roll Dice" />
+            <a href="projects/roll-dice/index.html">
+              <div class="name">"Roll Dice" game</div>
+            </a>
+          </div>
+          <div class="row-2">
+            <img src="images/guess-my-number.jpg" alt="Guess My Number" />
+            <a href="projects/guess-number/index.html">
+              <div class="name">"Guess My Number" game</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <span>Work Experience</span>
+        <div>
+          <div>
+            <span>Industries & sectors</span>
+            <ul>
+              <li>Startups & Enterprise</li>
+              <li>Web & Mobile</li>
+              <li>Finance</li>
+              <li>Healthcare</li>
+              <li>Education</li>
+              <li>Entertainment</li>
+            </ul>
+          </div>
+          <div>
+            <img src="images/work.png" alt="Gears above a man's head" />
+          </div>
+          <div>
+            <span>QA Engineer</span>
+            <ul>
+              <li>Test planning</li>
+              <li>Thousands of defects</li>
+              <li>Battles with developers</li>
+              <li>Extremely agile development</li>
+              <li>Evening overtime work</li>
+              <li>Sunday releases</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact">
+          <span>Contact info</span><br />
+          <span class="big-font bold-font">Get in touch</span>
+          <div>
+            <div><img src="" alt="" /></div>
+            <div>
+              <span>Email</span><br />
+              <span class="bold-font">victoria.stratulat@gmail.com</span>
+            </div>
+          </div>
+          <div>
+            <div><img src="" alt="" /></div>
+            <div>
+              <span>Telefon</span><br />
+              <span class="bold-font">+373 69 812 720</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact white-text">
+          <span>Contact me</span><br />
+          <span class="big-font bold-font white-text">Send me a message</span>
+          <form>
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name and surname*"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email*"
+                required
+              /><br /><br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Phone*"
+                required
+              /><br /><br />
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
